@@ -2,8 +2,8 @@
   display: grid;
   /* Maximum allocation of space 1fr =all equally sized, auto-fill adds extra columns */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 15px;
-  grid-auto-rows: 150px;
+  grid-gap: 0 10px;
+  grid-auto-rows: 10px;
 }
 
 .image-list img {
